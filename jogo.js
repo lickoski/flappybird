@@ -82,7 +82,7 @@ const flappyBird = {
         console.log('Pulaaaa!');
         flappyBird.velocidade =  - flappyBird.pulo;
     },
-    gravidade: 0.,
+    gravidade: 0.25,
     velocidade:0,
     atualiza(){
         flappyBird.velocidade = flappyBird.velocidade + flappyBird.gravidade;
